@@ -5,3 +5,6 @@
 
 *.C# project
 1. search the require data in csv file and get another information of it
+
+*lab.cpp 
+-This program used to get the information of user and id. If the information match, then it will print out the result.
