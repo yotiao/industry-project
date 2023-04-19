@@ -15,13 +15,13 @@ Module Module1
         Dim CurrentDateTime As String = DateTime.Now.ToString("M/d/yyyy hh:mm:ss tt")
         ' folder = Console.Read()
         Dim j As String
-        For i = 0 To (args.Length - 1)
-            If args(i) = "-i" Then
-                folder = args(i + 1)
-            ElseIf args(i) = "-o" Then
-                mother_fold = args(i + 1)
-            End If
-        Next i
+        'For i = 0 To (args.Length - 1)
+         '   If args(i) = "-i" Then
+          '      folder = args(i + 1)
+           ' ElseIf args(i) = "-o" Then
+            '    mother_fold = args(i + 1)
+            'End If
+        'Next i
 
         Dim times As String
         Dim di As New IO.DirectoryInfo(folder)
