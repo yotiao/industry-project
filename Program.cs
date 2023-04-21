@@ -72,7 +72,7 @@ namespace WriteTocsvfile
             {
                 return true;
             }
-            return false;
+         
         }
     
     }
